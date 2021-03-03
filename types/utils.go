@@ -11,7 +11,7 @@ import (
 
 var (
 	// This is set at compile time. Could be cleveldb, defaults is goleveldb.
-	DBBackend = ""
+	DBBackend = "dbcache"
 	backend   = dbm.GoLevelDBBackend
 )
 

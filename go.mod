@@ -38,3 +38,7 @@ require (
 )
 
 replace github.com/keybase/go-keychain => github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4
+
+replace github.com/tendermint/tendermint => github.com/terra-project/tendermint v0.33.10-0.20210303064713-3f9f91d24a42
+
+replace github.com/tendermint/tm-db => github.com/terra-project/tm-db v0.5.2-0.20210303062737-e7bc1784e8b8
